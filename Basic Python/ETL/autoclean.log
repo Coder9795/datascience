@@ -1,0 +1,43 @@
+27-03-2023 00:07:02.23 - INFO - Started validation of input parameters...
+27-03-2023 00:07:02.23 - INFO - Completed validation of input parameters
+27-03-2023 00:07:02.23 - INFO - Started handling of duplicates... Method: "AUTO"
+27-03-2023 00:07:02.26 - DEBUG - 0 missing values found
+27-03-2023 00:07:02.26 - INFO - Completed handling of duplicates in 0.030378 seconds
+27-03-2023 00:07:02.26 - INFO - Started handling of missing values...
+27-03-2023 00:07:02.28 - INFO - Found a total of 22161 missing value(s)
+27-03-2023 00:07:02.30 - INFO - Started handling of NUMERICAL missing values... Method: "AUTO"
+27-03-2023 00:07:02.38 - INFO - Started handling of CATEGORICAL missing values... Method: "AUTO"
+27-03-2023 00:07:03.56 - DEBUG - KNN imputation of 2082 value(s) succeeded for feature "director"
+27-03-2023 00:07:03.98 - DEBUG - KNN imputation of 1233 value(s) succeeded for feature "cast"
+27-03-2023 00:07:10.06 - DEBUG - KNN imputation of 8996 value(s) succeeded for feature "country"
+27-03-2023 00:07:14.73 - DEBUG - KNN imputation of 9513 value(s) succeeded for feature "date_added"
+27-03-2023 00:07:14.85 - DEBUG - KNN imputation of 337 value(s) succeeded for feature "rating"
+27-03-2023 00:07:14.85 - INFO - Completed handling of missing values in 12.590628 seconds
+27-03-2023 00:07:14.86 - INFO - Started handling of outliers... Method: "WINZ"
+27-03-2023 00:07:15.45 - DEBUG - Outlier imputation of 1074 value(s) succeeded for feature "release_year"
+27-03-2023 00:07:15.45 - INFO - Completed handling of outliers in 0.58955 seconds
+27-03-2023 00:07:15.45 - INFO - Started conversion of DATETIME features... Granularity: s
+27-03-2023 00:07:15.52 - DEBUG - Conversion to DATETIME succeeded for feature "date_added"
+27-03-2023 00:07:15.54 - INFO - Completed conversion of DATETIME features in 0.0913 seconds
+27-03-2023 00:07:15.54 - INFO - Started encoding categorical features... Method: "AUTO"
+27-03-2023 00:07:15.54 - DEBUG - Encoding skipped for feature "rating"
+27-03-2023 00:07:15.54 - DEBUG - Encoding skipped for feature "show_id"
+27-03-2023 00:07:15.55 - DEBUG - Encoding skipped for feature "country"
+27-03-2023 00:07:15.55 - DEBUG - Encoding skipped for feature "director"
+27-03-2023 00:07:15.56 - DEBUG - Encoding skipped for feature "cast"
+27-03-2023 00:07:15.57 - DEBUG - Skipped encoding for DATETIME feature "date_added"
+27-03-2023 00:07:15.57 - DEBUG - Encoding skipped for feature "listed_in"
+27-03-2023 00:07:15.57 - DEBUG - Encoding skipped for feature "duration"
+27-03-2023 00:07:15.58 - DEBUG - Encoding skipped for feature "title"
+27-03-2023 00:07:15.60 - DEBUG - Encoding skipped for feature "description"
+27-03-2023 00:07:15.61 - DEBUG - Encoding to ONEHOT succeeded for feature "type"
+27-03-2023 00:07:15.61 - INFO - Completed encoding of categorical features in 0.071656 seconds
+27-03-2023 00:07:15.61 - INFO - Started feature type conversion...
+27-03-2023 00:07:15.61 - DEBUG - Conversion to type INT succeeded for feature "release_year"
+27-03-2023 00:07:15.61 - DEBUG - Conversion to type INT succeeded for feature "Day"
+27-03-2023 00:07:15.62 - DEBUG - Conversion to type INT succeeded for feature "Month"
+27-03-2023 00:07:15.62 - DEBUG - Conversion to type INT succeeded for feature "Year"
+27-03-2023 00:07:15.62 - DEBUG - Conversion to type INT succeeded for feature "type_Movie"
+27-03-2023 00:07:15.62 - DEBUG - Conversion to type INT succeeded for feature "type_TV Show"
+27-03-2023 00:07:15.62 - INFO - Completed feature type conversion for 6 feature(s) in 0.010931 seconds
+27-03-2023 00:07:15.62 - INFO - AutoClean process completed in 13.399174 seconds
